@@ -36,7 +36,7 @@ El simulador modela neuronas de corteza motora con direcciones preferidas, gener
 | Modelo Neuronal | Neuronas con direcciones preferidas y sintonización coseno |
 | Generación de Spikes | Proceso estocástico de Poisson biológicamente plausible |
 | Decodificación | Algoritmo de vectores poblacionales (Georgopoulos 1986) |
-| Visualización | Animación en tiempo real + gráficos de análisis |
+| Visualización | Animación en tiempo real  |
 | Configurable | Parámetros ajustables para experimentación |
 | Métricas | Error de posición, R², análisis de variabilidad |
 
@@ -47,12 +47,12 @@ El simulador modela neuronas de corteza motora con direcciones preferidas, gener
 ### Ejecución
 
 ```bash
-python src/bci_simulator.py
+python src/DECODIFICADOR_BCI.py
 ```
 
 ### Configuración de Parámetros
 
-Los parámetros se pueden modificar directamente en el archivo `bci_simulator.py`:
+Los parámetros se pueden modificar directamente en el archivo `DECODIFICADOR_BCI.py`:
 
 ```python
 # Parámetros de la población neuronal
@@ -124,10 +124,10 @@ BCI-Population-Vector-Simulator/
 ├── README.md                 # Este archivo
 │
 ├── src/
-│   └── bci_simulator.py      # Código principal del simulador
+│   └── DECODIFICADOR_BCI.py      # Código principal del simulador
 │
 └── docs/
-    └── BCI_Paper.pdf         # Artículo científico completo
+    └── BCI_FINAL(1).pdf         # Artículo completo
 ```
 
 ---
